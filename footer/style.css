@@ -1,0 +1,91 @@
+.rodape {
+    background-color: #fc5d1fe3;
+    padding: 15px;
+    display: flex;
+    min-height: 75px;
+}
+
+.rodape h1 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.rodape .formulario {
+    align-items: center;
+    display: flex;
+    margin: 15px;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+.rodape input[type="text"] {
+    width: 50%;
+    /* Largura das caixas de texto, ajuste conforme necessário */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Inclui padding e borda na largura total */
+
+}
+
+.rodape .btn-danger {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+
+
+/*------------------------------*/
+/*--------informação------------*/
+
+.gri {
+    background-color: rgba(255, 104, 4, 0.445);
+    background-image: url(patinhas-removebg-preview.png) ;
+    display: flex;
+    gap: 100px;
+
+    ul {
+
+        padding: 0px;
+        margin: 0 auto;
+
+        li {
+            display: block;
+            padding: 10px;
+
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                
+                
+            }
+
+
+        }
+    }
+
+}
+
+h1, h2, p{
+    color: rgb(0, 0, 0);
+}
+
+.menu-container {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+
+}
+
+.localizacao-container {
+    width: 600px;
+    padding-top: 20px;
+}
